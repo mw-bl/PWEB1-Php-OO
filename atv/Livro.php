@@ -11,6 +11,7 @@ class Livro {
         $this -> autor = $autor;
     }
 
+    // Getter/Setter Titulo
     public function getTitulo() {
         return $this -> titulo;
     }
@@ -18,6 +19,7 @@ class Livro {
         $this -> titulo = $titulo;
     }
 
+    // Getter/Setter Ano
     public function getAno() {
         return $this -> ano;
     }
@@ -25,6 +27,7 @@ class Livro {
         $this -> ano = $ano;
     }
 
+    // Getter/Setter Autor
     public function getAutor() {
         return $this -> autor;
     }
