@@ -2,9 +2,29 @@
 <html>
     <head>
         <title>Cadastro de Livro</title>
+        <style>
+
+            body {
+                font-family: Arial;
+            }
+            .container {
+                width: 300px;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+            input[type="submit"] {
+                margin-top: 10px;
+                padding: 5px;
+                background-color: #007BFF;
+                color: white;
+            }
+
+        </style>
     </head>
     <body>
-        <div>
+        <div class="container">
             <h1>Cadastro de Livro</h1>
 
             <form action="" method="post">
